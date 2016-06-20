@@ -1,0 +1,154 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'jasmine' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'jasmine', null ]
+6 verbose cache add name=undefined spec="jasmine" args=["jasmine",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'jasmine',
+7 verbose parsed url   path: 'jasmine',
+7 verbose parsed url   href: 'jasmine' }
+8 silly lockFile 5bfd08bd-jasmine jasmine
+9 verbose lock jasmine /home/lunem/.npm/5bfd08bd-jasmine.lock
+10 silly lockFile 5bfd08bd-jasmine jasmine
+11 silly lockFile 5bfd08bd-jasmine jasmine
+12 verbose addNamed [ 'jasmine', '' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile fdd358a6-jasmine jasmine@
+15 verbose lock jasmine@ /home/lunem/.npm/fdd358a6-jasmine.lock
+16 silly addNameRange { name: 'jasmine', range: '*', hasData: false }
+17 verbose request where is /jasmine
+18 verbose request registry https://registry.npmjs.org/
+19 verbose request id ac09589bd9b47268
+20 verbose url raw /jasmine
+21 verbose url resolving [ 'https://registry.npmjs.org/', './jasmine' ]
+22 verbose url resolved https://registry.npmjs.org/jasmine
+23 verbose request where is https://registry.npmjs.org/jasmine
+24 info trying registry request attempt 1 at 09:38:01
+25 http GET https://registry.npmjs.org/jasmine
+26 http 200 https://registry.npmjs.org/jasmine
+27 silly registry.get cb [ 200,
+27 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+27 silly registry.get     etag: '"DN5HY1XDIMIXCRE6ERETKR9LU"',
+27 silly registry.get     'content-type': 'application/json',
+27 silly registry.get     'cache-control': 'max-age=300',
+27 silly registry.get     'content-length': '14680',
+27 silly registry.get     'accept-ranges': 'bytes',
+27 silly registry.get     date: 'Mon, 04 Apr 2016 07:38:01 GMT',
+27 silly registry.get     via: '1.1 varnish',
+27 silly registry.get     age: '206',
+27 silly registry.get     connection: 'keep-alive',
+27 silly registry.get     'x-served-by': 'cache-fra1235-FRA',
+27 silly registry.get     'x-cache': 'HIT',
+27 silly registry.get     'x-cache-hits': '2',
+27 silly registry.get     'x-timer': 'S1459755481.080653,VS0,VE0',
+27 silly registry.get     vary: 'Accept' } ]
+28 silly addNameRange number 2 { name: 'jasmine', range: '*', hasData: true }
+29 silly addNameRange versions [ 'jasmine',
+29 silly addNameRange   [ '2.0.1',
+29 silly addNameRange     '2.1.0',
+29 silly addNameRange     '2.1.1',
+29 silly addNameRange     '2.2.0',
+29 silly addNameRange     '2.2.1',
+29 silly addNameRange     '2.3.0',
+29 silly addNameRange     '2.3.1',
+29 silly addNameRange     '2.3.2',
+29 silly addNameRange     '2.4.0',
+29 silly addNameRange     '2.4.1' ] ]
+30 verbose addNamed [ 'jasmine', '2.4.1' ]
+31 verbose addNamed [ '2.4.1', '2.4.1' ]
+32 silly lockFile cd96ce81-jasmine-2-4-1 jasmine@2.4.1
+33 verbose lock jasmine@2.4.1 /home/lunem/.npm/cd96ce81-jasmine-2-4-1.lock
+34 silly lockFile f11b9857-js-org-jasmine-jasmine-2-4-1-tgz https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz
+35 verbose lock https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz /home/lunem/.npm/f11b9857-js-org-jasmine-jasmine-2-4-1-tgz.lock
+36 verbose addRemoteTarball [ 'https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz',
+36 verbose addRemoteTarball   '9016dda453213d27ac6d43dc4ea97315a189085e' ]
+37 info retry fetch attempt 1 at 09:38:01
+38 verbose fetch to= /tmp/npm-5197-2NU864i5/registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz
+39 http GET https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz
+40 http 200 https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz
+41 silly lockFile f11b9857-js-org-jasmine-jasmine-2-4-1-tgz https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz
+42 silly lockFile f11b9857-js-org-jasmine-jasmine-2-4-1-tgz https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz
+43 silly lockFile cd96ce81-jasmine-2-4-1 jasmine@2.4.1
+44 silly lockFile cd96ce81-jasmine-2-4-1 jasmine@2.4.1
+45 silly lockFile fdd358a6-jasmine jasmine@
+46 silly lockFile fdd358a6-jasmine jasmine@
+47 silly resolved [ { name: 'jasmine',
+47 silly resolved     description: 'Command line jasmine',
+47 silly resolved     homepage: 'http://jasmine.github.io/',
+47 silly resolved     keywords: [ 'test', 'jasmine', 'tdd', 'bdd' ],
+47 silly resolved     license: 'MIT',
+47 silly resolved     version: '2.4.1',
+47 silly resolved     repository:
+47 silly resolved      { type: 'git',
+47 silly resolved        url: 'git+https://github.com/jasmine/jasmine-npm.git' },
+47 silly resolved     scripts: { test: 'grunt && ./bin/jasmine.js' },
+47 silly resolved     dependencies: { exit: '^0.1.2', glob: '^3.2.11', 'jasmine-core': '~2.4.0' },
+47 silly resolved     bin: { jasmine: './bin/jasmine.js' },
+47 silly resolved     main: './lib/jasmine.js',
+47 silly resolved     devDependencies:
+47 silly resolved      { grunt: '^0.4.2',
+47 silly resolved        'grunt-cli': '^0.1.13',
+47 silly resolved        'grunt-contrib-jshint': '^0.11.0',
+47 silly resolved        shelljs: '^0.3.0' },
+47 silly resolved     gitHead: '17344da242f81c61e4d19a895960bf9414fae07d',
+47 silly resolved     bugs: { url: 'https://github.com/jasmine/jasmine-npm/issues' },
+47 silly resolved     _id: 'jasmine@2.4.1',
+47 silly resolved     _shasum: '9016dda453213d27ac6d43dc4ea97315a189085e',
+47 silly resolved     _from: 'jasmine@',
+47 silly resolved     _npmVersion: '2.12.1',
+47 silly resolved     _nodeVersion: '0.12.7',
+47 silly resolved     _npmUser: { name: 'slackersoft', email: 'gregg@slackersoft.net' },
+47 silly resolved     maintainers: [ [Object], [Object], [Object] ],
+47 silly resolved     dist:
+47 silly resolved      { shasum: '9016dda453213d27ac6d43dc4ea97315a189085e',
+47 silly resolved        tarball: 'https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz' },
+47 silly resolved     directories: {},
+47 silly resolved     _resolved: 'https://registry.npmjs.org/jasmine/-/jasmine-2.4.1.tgz' } ]
+48 info install jasmine@2.4.1 into /usr/lib
+49 info installOne jasmine@2.4.1
+50 verbose lib/node_modules/jasmine unbuild
+51 verbose tar unpack /home/lunem/.npm/jasmine/2.4.1/package.tgz
+52 silly lockFile 586a017b-tar-usr-lib-node-modules-jasmine tar:///usr/lib/node_modules/jasmine
+53 verbose lock tar:///usr/lib/node_modules/jasmine /home/lunem/.npm/586a017b-tar-usr-lib-node-modules-jasmine.lock
+54 silly lockFile 54edc528-em-npm-jasmine-2-4-1-package-tgz tar:///home/lunem/.npm/jasmine/2.4.1/package.tgz
+55 verbose lock tar:///home/lunem/.npm/jasmine/2.4.1/package.tgz /home/lunem/.npm/54edc528-em-npm-jasmine-2-4-1-package-tgz.lock
+56 silly gunzTarPerm modes [ '775', '664' ]
+57 error Error: EACCES, mkdir '/usr/lib/node_modules/jasmine'
+57 error  { [Error: EACCES, mkdir '/usr/lib/node_modules/jasmine']
+57 error   errno: 3,
+57 error   code: 'EACCES',
+57 error   path: '/usr/lib/node_modules/jasmine',
+57 error   fstream_type: 'Directory',
+57 error   fstream_path: '/usr/lib/node_modules/jasmine',
+57 error   fstream_class: 'DirWriter',
+57 error   fstream_stack:
+57 error    [ '/usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+57 error      '/usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+57 error      'Object.oncomplete (fs.js:108:15)' ] }
+58 error Please try running this command again as root/Administrator.
+59 error System Linux 3.19.0-56-generic
+60 error command "/usr/bin/node" "/usr/bin/npm" "install" "-g" "jasmine"
+61 error cwd /home/lunem/Documents/SIMPLON/JAVASCRIPT/Javascript-Recall
+62 error node -v v0.10.37
+63 error npm -v 1.4.28
+64 error path /usr/lib/node_modules/jasmine
+65 error fstream_path /usr/lib/node_modules/jasmine
+66 error fstream_type Directory
+67 error fstream_class DirWriter
+68 error code EACCES
+69 error errno 3
+70 error stack Error: EACCES, mkdir '/usr/lib/node_modules/jasmine'
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+71 error fstream_stack /usr/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+71 error fstream_stack Object.oncomplete (fs.js:108:15)
+72 verbose exit [ 3, true ]

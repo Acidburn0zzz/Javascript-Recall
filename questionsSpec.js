@@ -2,6 +2,16 @@
 
 describe('javascript-Recall', function(){
 
+  it('counts sheeps', function() {
+    var result = nbMoutons([true,  true,  true,  false,
+         true,  true,  true,  true ,
+         true,  false, true,  false,
+         true,  false, false, true ,
+         true,  true,  true,  true ,
+         false, false, true,  true]);
+         expect(result).toEqual(17);
+  });
+
   it('selects elements starting with A', function(){
     var result = selectElementsStartingWithA(['bananas', 'apples', 'pears', 'avocados']);
     expect(result).toEqual(['apples', 'avocados']);
